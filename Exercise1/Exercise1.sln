@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Define a Class Person", "ConsoleApp1\1. Define a Class Person.csproj", "{81032821-2083-46D5-BB13-D877FD3DAC05}"
 EndProject
@@ -10,6 +10,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5DateModifier", "5DateModifier\5DateModifier.csproj", "{96F76C3B-E0A6-477F-A220-8760FCDAAA7F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.CompanyRoster", "6.CompanyRoster\6.CompanyRoster.csproj", "{7001C1D1-2FB1-478E-9E9C-7E97AD777EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.SpeedRacing", "7.SpeedRacing\7.SpeedRacing.csproj", "{330C7272-52F0-4EDF-BE04-581777AA614E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.RectIntersection", "8.RectIntersection\8.RectIntersection.csproj", "{526DBB48-B274-4BF3-A546-3B4A5922522E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 15. Drawing tool", "Problem 15. Drawing tool\Problem 15. Drawing tool.csproj", "{A2E5269F-983F-42EB-8C43-4E67325EF869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10CarSelsman", "10CarSelsman\10CarSelsman.csproj", "{D1AD79C7-C23E-405A-9543-3C5540BEFDDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{7001C1D1-2FB1-478E-9E9C-7E97AD777EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7001C1D1-2FB1-478E-9E9C-7E97AD777EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7001C1D1-2FB1-478E-9E9C-7E97AD777EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330C7272-52F0-4EDF-BE04-581777AA614E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330C7272-52F0-4EDF-BE04-581777AA614E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330C7272-52F0-4EDF-BE04-581777AA614E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330C7272-52F0-4EDF-BE04-581777AA614E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526DBB48-B274-4BF3-A546-3B4A5922522E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526DBB48-B274-4BF3-A546-3B4A5922522E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526DBB48-B274-4BF3-A546-3B4A5922522E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526DBB48-B274-4BF3-A546-3B4A5922522E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E5269F-983F-42EB-8C43-4E67325EF869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E5269F-983F-42EB-8C43-4E67325EF869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E5269F-983F-42EB-8C43-4E67325EF869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E5269F-983F-42EB-8C43-4E67325EF869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AD79C7-C23E-405A-9543-3C5540BEFDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AD79C7-C23E-405A-9543-3C5540BEFDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AD79C7-C23E-405A-9543-3C5540BEFDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AD79C7-C23E-405A-9543-3C5540BEFDDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
