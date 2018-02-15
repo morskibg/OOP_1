@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 15. Drawing tool", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10CarSelsman", "10CarSelsman\10CarSelsman.csproj", "{D1AD79C7-C23E-405A-9543-3C5540BEFDDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11PokemonTrainer", "11PokemonTrainer\11PokemonTrainer.csproj", "{B36AA9C8-6760-4CFD-85D8-6B9B8B89D622}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{D1AD79C7-C23E-405A-9543-3C5540BEFDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1AD79C7-C23E-405A-9543-3C5540BEFDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1AD79C7-C23E-405A-9543-3C5540BEFDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36AA9C8-6760-4CFD-85D8-6B9B8B89D622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36AA9C8-6760-4CFD-85D8-6B9B8B89D622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36AA9C8-6760-4CFD-85D8-6B9B8B89D622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36AA9C8-6760-4CFD-85D8-6B9B8B89D622}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
