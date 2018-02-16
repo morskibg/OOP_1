@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Define a Class Person", "ConsoleApp1\1. Define a Class Person.csproj", "{81032821-2083-46D5-BB13-D877FD3DAC05}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11PokemonTrainer", "11PokemonTrainer\11PokemonTrainer.csproj", "{B36AA9C8-6760-4CFD-85D8-6B9B8B89D622}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.CatLady", "14.CatLady\14.CatLady.csproj", "{91303A70-4067-4223-8F87-A3F82500C559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Google", "12. Google\12. Google.csproj", "{B536A438-2C63-42BB-94B0-296CC72AE555}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{91303A70-4067-4223-8F87-A3F82500C559}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91303A70-4067-4223-8F87-A3F82500C559}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91303A70-4067-4223-8F87-A3F82500C559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B536A438-2C63-42BB-94B0-296CC72AE555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B536A438-2C63-42BB-94B0-296CC72AE555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B536A438-2C63-42BB-94B0-296CC72AE555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B536A438-2C63-42BB-94B0-296CC72AE555}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
