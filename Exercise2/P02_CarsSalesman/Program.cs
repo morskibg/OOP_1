@@ -22,28 +22,19 @@ namespace P02_CarsSalesman
             this.efficiency = "n/a";
         }
 
-        public Engine(string model, int power, int displacement)
+        public Engine(string model, int power, int displacement) : this(model, power)
         {
-            this.model = model;
-            this.power = power;
             this.displacement = displacement;
-            this.efficiency = "n/a";
         }
 
-        public Engine(string model, int power, string efficiency)
+        public Engine(string model, int power, string efficiency) : this(model, power)
         {
-            this.model = model;
-            this.power = power;
-            this.displacement = -1;
             this.efficiency = efficiency;
         }
 
-        public Engine(string model, int power, int displacement, string efficiency)
+        public Engine(string model, int power, int displacement, string efficiency) : this(model, power, efficiency)
         {
-            this.model = model;
-            this.power = power;
             this.displacement = displacement;
-            this.efficiency = efficiency;
         }
 
 
@@ -76,27 +67,18 @@ namespace P02_CarsSalesman
             this.color = "n/a";
         }
 
-        public Car(string model, Engine engine, int weight)
+        public Car(string model, Engine engine, int weight) : this(model, engine)
         {
-            this.model = model;
-            this.engine = engine;
             this.weight = weight;
-            this.color = "n/a";
         }
 
-        public Car(string model, Engine engine, string color)
+        public Car(string model, Engine engine, string color) : this(model, engine)
         {
-            this.model = model;
-            this.engine = engine;
-            this.weight = -1;
             this.color = color;
         }
 
-        public Car(string model, Engine engine, int weight, string color)
+        public Car(string model, Engine engine, int weight, string color) : this(model, engine, weight)
         {
-            this.model = model;
-            this.engine = engine;
-            this.weight = weight;
             this.color = color;
         }
 
