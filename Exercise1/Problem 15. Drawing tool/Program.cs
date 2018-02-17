@@ -62,8 +62,8 @@ namespace Problem_15.Drawing_tool
         {
             string shapeToDraw = Console.ReadLine();
             Shape shape = shapeToDraw == "Square"
-                ? shape = new DrawingTool(new Square(Console.ReadLine))
-                : shape = new DrawingTool(new Rect(Console.ReadLine, Console.ReadLine));
+                ?  new DrawingTool(new Square(Console.ReadLine))
+                :  new DrawingTool(new Rect(Console.ReadLine, Console.ReadLine));
             shape.Draw();
         }
     }

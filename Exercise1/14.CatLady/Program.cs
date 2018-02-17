@@ -35,17 +35,17 @@ namespace _14.CatLady
     }
     class Siamese : Cat
     {
-        public override string BreedSpecific { get => base.BreedSpecific; set => base.BreedSpecific = value; }
+        public override string BreedSpecific { get; set; }
         public Siamese(string breed, string name, string earSize) : base(breed, name, earSize) { }         
     }
     class Cymric : Cat
     {
-        public override string BreedSpecific { get => base.BreedSpecific; set => base.BreedSpecific = value; }
+        public override string BreedSpecific { get; set; }
         public Cymric(string breed, string name, string furrLen) : base(breed, name, furrLen) { }        
     }
     class StreetExtraordinaire : Cat
     {
-        public override string BreedSpecific { get => base.BreedSpecific; set => base.BreedSpecific = value; }
+        public override string BreedSpecific { get; set; }
         public StreetExtraordinaire(string breed, string name, string meowDB) : base(breed, name, meowDB) { }
        
     }
