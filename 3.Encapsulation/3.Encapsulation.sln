@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1Box", "1Box\1Box.csproj", "{9D461FC4-3EFD-4316-A024-2CABE2FFA5D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1Box", "1Box\1Box.csproj", "{9D461FC4-3EFD-4316-A024-2CABE2FFA5D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Class Box Data Validation", "02. Class Box Data Validation\02. Class Box Data Validation.csproj", "{3F1741AF-CEF3-4FAC-B9F1-91B39548904F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Class Box Data Validation", "02. Class Box Data Validation\02. Class Box Data Validation.csproj", "{3F1741AF-CEF3-4FAC-B9F1-91B39548904F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.ShopingSpree", "4.ShopingSpree\4.ShopingSpree.csproj", "{1872098C-D508-4EAD-99FB-50E219A70F43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3F1741AF-CEF3-4FAC-B9F1-91B39548904F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F1741AF-CEF3-4FAC-B9F1-91B39548904F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F1741AF-CEF3-4FAC-B9F1-91B39548904F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1872098C-D508-4EAD-99FB-50E219A70F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1872098C-D508-4EAD-99FB-50E219A70F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1872098C-D508-4EAD-99FB-50E219A70F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1872098C-D508-4EAD-99FB-50E219A70F43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
