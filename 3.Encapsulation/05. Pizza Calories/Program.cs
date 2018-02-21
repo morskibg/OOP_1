@@ -32,8 +32,8 @@ namespace _05._Pizza_Calories
             get { return this.bakingTechique; }
             set
             {
-
-                if (value != "Crispy" && value != "Chewy" && value != "Homemade")
+                string temp = value.ToLower();
+                if (temp != "crispy" && temp != "chewy" && temp != "homemade")
                 {
                     Console.WriteLine("Invalid type of dough.");
                     Environment.Exit(1);
@@ -212,8 +212,8 @@ namespace _05._Pizza_Calories
     {
         static void Main(string[] args)
         {
-            Pizza newPizza = new Pizza(Console.ReadLine());
-           
+            Pizza newPizza = new Pizza(Console.ReadLine().Split().Last());
+
             while (true)
             {
                 string line = Console.ReadLine();
@@ -229,7 +229,7 @@ namespace _05._Pizza_Calories
                 {
                     newPizza.AddTopping(line);
                 }
-               
+
             }
             Console.WriteLine($"{newPizza.Name} - {newPizza.GetCalc():f2} Calories. ");
         }
