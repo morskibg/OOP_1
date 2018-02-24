@@ -14,6 +14,10 @@ namespace _06.Animals
             Animal currAnimal = null;
             string[] tokens = animalData.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(x => x.Trim())
                 .ToArray();
+            if (tokens.Length < 2)
+            {
+                throw new ArgumentException("Invalid input!");
+            }
             if (animalType.ToLower() == "dog")
             {
                 currAnimal = new Dog(tokens[0], tokens[1], tokens[2]);
@@ -25,6 +29,18 @@ namespace _06.Animals
             else if (animalType.ToLower() == "frog")
             {
                 currAnimal = new Frog(tokens[0], tokens[1], tokens[2]);
+            }
+            else if(animalType.ToLower() == "kitten")
+            {
+                currAnimal = new Kitten(tokens[0], tokens[1], tokens.Length == 3 ? tokens[2] : null);
+            }
+            else if (animalType.ToLower() == "tomcat")
+            {
+                currAnimal = new Tomcat(tokens[0], tokens[1], tokens.Length == 3 ? tokens[2] : null);
+            }
+            else
+            {
+                throw new ArgumentException("Invalid input!");
             }
             if (currAnimal != null)
             {

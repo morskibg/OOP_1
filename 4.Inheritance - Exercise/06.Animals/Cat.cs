@@ -21,15 +21,15 @@ namespace _06.Animals
 
     public class Kitten : Cat
     {
-        private string _gendre;
+        private string gendre;
 
         public override string Gendre
         {
-            get { return _gendre; }
-            set { _gendre = "fmale"; }
+            get { return gendre; }
+            set { gendre = value; }
         }
 
-        public Kitten(string name, string age, string gendre) : base(name, age, gendre)
+        public Kitten(string name, string age, string gendre) : base(name, age, "Female")
         {
             
         }
@@ -40,12 +40,18 @@ namespace _06.Animals
         }
     }
 
-    public class Tomkat : Cat
+    public class Tomcat : Cat
     {
-        public override string Gendre { get => Gendre; set => Gendre = "male"; }
-
-        public Tomkat(string name, string age, string gendre) : base(name, age, gendre)
+        private string gendre;
+        public override string Gendre
         {
+            get { return gendre; }
+            set { gendre = value; }
+        }
+
+        public Tomcat(string name, string age, string gendre) : base(name, age, "Male")
+        {
+
         }
         public override void ProduceSound()
         {

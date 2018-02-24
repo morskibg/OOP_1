@@ -46,7 +46,7 @@ namespace _06.Animals
                     throw new ArgumentException("Invalid input!");
                 }
                 
-                age = value;
+                age = this.ageAsNumber.ToString();
             }
         }
 
@@ -64,7 +64,7 @@ namespace _06.Animals
         {
             this.Name = name;
             this.Age = age;
-            this.gendre = gendre;
+            this.Gendre = gendre;
         }
 
         private void TextValidator(string value)
@@ -77,7 +77,7 @@ namespace _06.Animals
 
         private bool AgeValidator()
         {
-            if (this.AgeAsNumber <= 0)
+            if (this.AgeAsNumber < 0)
             {
                 return false;
             }

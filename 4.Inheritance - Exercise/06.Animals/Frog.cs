@@ -15,7 +15,6 @@ namespace _06.Animals
         public override void ProduceSound()
         {
             Console.WriteLine("Ribbit");
-            
         }
     }
 }
