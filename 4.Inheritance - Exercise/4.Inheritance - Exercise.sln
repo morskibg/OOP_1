@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Songs", "4.Songs\4.Songs.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MordorCruelPlan", "MordorCruelPlan\MordorCruelPlan.csproj", "{BF1EAB5E-2096-4EF9-B84F-2A4B9F83BEA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Animals", "06.Animals\06.Animals.csproj", "{DBFB06D1-D535-4F93-84B9-F2966FEED1FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BF1EAB5E-2096-4EF9-B84F-2A4B9F83BEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF1EAB5E-2096-4EF9-B84F-2A4B9F83BEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF1EAB5E-2096-4EF9-B84F-2A4B9F83BEA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFB06D1-D535-4F93-84B9-F2966FEED1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFB06D1-D535-4F93-84B9-F2966FEED1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFB06D1-D535-4F93-84B9-F2966FEED1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFB06D1-D535-4F93-84B9-F2966FEED1FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
