@@ -52,6 +52,7 @@ namespace _6.FootballGenerator
             }
             players.RemoveWhere(x => x.Name == name);
             return true;
+
         }
 
         public double GetAverageSkils()
