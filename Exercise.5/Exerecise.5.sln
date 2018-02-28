@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04Telephony_100InJuddge", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Border Control", "05. Border Control\05. Border Control.csproj", "{2D62F9B3-5B1C-470B-8C06-613268F9E195}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5plu6", "temp1\5plu6.csproj", "{B7643D81-ECFF-4FDB-A073-B8C25F17DA1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5plu6", "temp1\5plu6.csproj", "{B7643D81-ECFF-4FDB-A073-B8C25F17DA1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Food", "7.Food\7.Food.csproj", "{FA674E5A-AD22-4BF4-9934-8B3894A0ED6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.Food", "7.Food\7.Food.csproj", "{FA674E5A-AD22-4BF4-9934-8B3894A0ED6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.Military", "8.Military\8.Military.csproj", "{C75C523A-6196-44EF-BFA0-36D489677BDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.Military", "8.Military\8.Military.csproj", "{C75C523A-6196-44EF-BFA0-36D489677BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8Military_V2", "8Military_V2\8Military_V2.csproj", "{D2998492-3AF1-40A8-B1E6-4760893FA369}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{C75C523A-6196-44EF-BFA0-36D489677BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C75C523A-6196-44EF-BFA0-36D489677BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C75C523A-6196-44EF-BFA0-36D489677BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2998492-3AF1-40A8-B1E6-4760893FA369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2998492-3AF1-40A8-B1E6-4760893FA369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2998492-3AF1-40A8-B1E6-4760893FA369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2998492-3AF1-40A8-B1E6-4760893FA369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
